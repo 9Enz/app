@@ -89,8 +89,8 @@ li.show-more-topics {
         }
 
         ul { border-right: 1px solid #E6E6E6;
-            margin-left: 220px;
-            max-width: 319px
+            margin-left: 0px;
+
             &.topic-list li {
                 padding: 6px 0px 6px $topic_indent; //-top: 2px;
                 // padding-right: 0px;
