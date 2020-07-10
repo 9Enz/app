@@ -9,7 +9,7 @@ which often needs to be respected by both
 the elements above it and below it on
 the y-axis, due to absolute positioning.
 */
-$header_padding_bottom: 10px;
+$header_padding_bottom: 0px;
 
 /*
 Our sidebars (and anything that top-align
@@ -24,16 +24,16 @@ html {
     height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
-
-    touch-action: manipulation;
+    touch-action: manipulation; -ms-overflow-style: none; scrollbar-width: none; // IE, Edge & Firefox 
 }
+body::-webkit-scrollbar { display: none; } /* Hide scrollbar for Chrome, Safari and Opera */
 
 #app-loading.loaded {
     display: none !important; /* We are now loaded, by definition. */
 }
 
 body {
-    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif,BlinkMacSystemFont,Segoe UI,Roboto,Noto,Oxygen-Sans,Ubuntu,Cantrell,Helvetica Neue,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; // font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* Common background color */
@@ -47,7 +47,7 @@ input,
 button,
 select,
 textarea {
-    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    //font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: normal;
 }
 
@@ -227,7 +227,7 @@ p.n-margin {
 }
 
 .header {
-    position: fixed;
+    // position: fixed;
     z-index: 102; /* Needs to be higher than .alert-bar-container */
     width: 100%;
     height: $header_height;
@@ -236,7 +236,7 @@ p.n-margin {
 }
 
 #top_navbar {
-    border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);
+    background-color: #1185DD; // border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);
 }
 
 #panels {
@@ -302,15 +302,15 @@ p.n-margin {
     // max-width at all.  The consequence is that if you reload a
     // Zulip window, there's a brief flash where the content is
     // misplaced before the JS code can fix it.
-    max-width: 1400px;
-    min-width: 950px;
-    margin: 0px auto;
+    // max-width: 1400px;
+    // min-width: 950px;
+    margin: 0px; //  auto;
     padding: 0px;
     position: relative;
-    background-color: hsl(0, 0%, 100%);
+    background-color: #FFFFFF;
 }
 
-.fixed-app {
+.fixed-app { display: none;
     width: 100%;
     position: fixed;
     z-index: 98;
@@ -319,8 +319,8 @@ p.n-margin {
 
 .column-left,
 .column-right {
-    width: 250px;
-    max-width: 250px;
+    width: 540px;
+    max-width: 540px;
 }
 
 .column-left {
@@ -329,7 +329,7 @@ p.n-margin {
     top: 0px;
 }
 
-.column-right {
+.column-right { display: none;
     position: absolute;
     right: 0px;
     top: 0px;
@@ -338,7 +338,7 @@ p.n-margin {
 .app-main {
     height: 100%;
     min-height: 100%;
-
+    overflow: hidden;
     .column-left .left-sidebar,
     .column-right .right-sidebar {
         position: fixed;
@@ -346,8 +346,8 @@ p.n-margin {
         z-index: 100;
     }
 
-    .column-left .left-sidebar {
-        width: 242px;
+    .column-left .left-sidebar { background-color: #fafafa;
+        width: 540px;
         padding-left: 0px;
     }
 
@@ -362,8 +362,8 @@ p.n-margin {
 }
 
 .column-middle {
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 540px;
+    margin-left: 0px;
     position: relative;
 }
 
