@@ -171,7 +171,7 @@ li.show-more-topics {
 .bottom_left_row:hover,
 #stream_filters li.highlighted_stream {
     background-color: #E6E6E6;
-    padding: 6px 0px; // border-radius: 4px;
+    // border-radius: 4px;
 }
 
 #add-stream-link {
@@ -266,11 +266,11 @@ li.top_left_recent_topics {
     padding-right: 10px;
 }
 
-/* .top_left_row,
+.top_left_row,
 .bottom_left_row,
 .top_left_private_messages {
-    border-radius: 4px;
-} */
+    padding: 6px 0px; //border-radius: 4px;
+}
 
 .conversation-partners {
     line-height: 1.25;
