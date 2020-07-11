@@ -171,7 +171,7 @@ li.show-more-topics {
 .bottom_left_row:hover,
 #stream_filters li.highlighted_stream {
     background-color: #E6E6E6;
-    // border-radius: 4px;
+    padding: 6px 0px; // border-radius: 4px;
 }
 
 #add-stream-link {
@@ -423,7 +423,7 @@ li.topic-list-item:hover .topic-sidebar-menu-icon {
     color: hsl(0, 0%, 53%);
 }
 
-ul.topic-list {
+ul.topic-list { position: fixed; left: 220px; top: 40px; width: 319px;
     list-style-type: none;
     font-weight: normal;
 }
