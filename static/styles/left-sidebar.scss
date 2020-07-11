@@ -35,7 +35,7 @@ $topic_indent: calc($far_left_gutter_size + $left_col_size + 4px);
 /* Ideally we'd handle hashtags using an <i> and just have a single rule here. */
 .stream-privacy span.hashtag,
 #left-sidebar .filter-icon i {
-    padding-right: 3px;
+    padding: 0px 3px 0px 0px; font-size: 22px; vertical-align: middle;
 }
 
 .pm_left_col {
@@ -170,7 +170,7 @@ li.show-more-topics {
 .top_left_row:hover,
 .bottom_left_row:hover,
 #stream_filters li.highlighted_stream {
-    background-color: hsl(93, 18%, 82%);
+    background-color: #E6E6E6;
     // border-radius: 4px;
 }
 
