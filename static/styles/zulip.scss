@@ -319,7 +319,7 @@ p.n-margin {
 
 .column-left,
 .column-right {
-    // width: 540px;
+    width: 219px;
     max-width: 540px;
 }
 
@@ -361,8 +361,8 @@ p.n-margin {
     }
 }
 
-.column-middle {
-    margin-right: 540px;
+.column-middle { display: bl
+    margin-right: 0px;
     margin-left: 0px;
     position: relative;
 }
