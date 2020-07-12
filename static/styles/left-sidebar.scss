@@ -45,7 +45,7 @@ $topic_indent: calc($far_left_gutter_size + $left_col_size + 4px);
 #stream_filters,
 #global_filters {
     font-size: 14px;
-    margin: 0px; //-right: 12px;
+    margin: 10px 0 0 0; //-right: 12px;
 }
 
 li.show-more-topics {
@@ -228,7 +228,7 @@ li.active-sub-filter {
 } li.active-sub-filter { background-color: #E0EDFF; }
 
 #global_filters {
-    margin: 10px 0px 0px 0px; // -bottom: 16px;
+    // -bottom: 16px;
     width: 219px;
     .filter-icon {
         display: inline-block;
