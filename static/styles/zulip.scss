@@ -340,7 +340,7 @@ p.n-margin {
     min-height: 100%;
     overflow: hidden;
     .column-left .left-sidebar,
-    .column-right .right-sidebar {
+    .column-right .right-sidebar { overflow-y: auto;
         position: fixed;
         // margin-top: $sidebar_top;
         z-index: 100;
@@ -348,7 +348,7 @@ p.n-margin {
 
     .column-left .left-sidebar { border-right: 1px solid #E6E6E6;
         background-color: #fafafa; // width: 540px;
-        padding-left: 0px;
+        padding-left: 0px; min-height: calc(100% - 40px);
     }
 
     .column-right .right-sidebar {
