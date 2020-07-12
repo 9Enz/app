@@ -163,7 +163,7 @@ li.show-more-topics {
     width: 100%;
 }
 
-#private-container {
+#private-container { 
     max-height: 200px;
 }
 
@@ -229,7 +229,7 @@ li.active-sub-filter {
 
 #global_filters {
     margin: 10px 0px 0px 0px; // -bottom: 16px;
-
+    width: 219px;
     .filter-icon {
         display: inline-block;
         min-width: $left_col_size;
