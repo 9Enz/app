@@ -423,7 +423,7 @@ li.topic-list-item:hover .topic-sidebar-menu-icon {
     color: hsl(0, 0%, 53%);
 }
 
-ul.topic-list { position: fixed; left: 220px; top: 40px; width: 319px;
+ul.topic-list { position: fixed; left: 220px; top: 40px; width: 319px; height: calc(100% - 40px); border-right: 1px solid #E6E6E6;  
     list-style-type: none;
     font-weight: normal;
 }
