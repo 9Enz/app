@@ -319,7 +319,7 @@ p.n-margin {
 
 .column-left,
 .column-right {
-    width: 540px;
+    // width: 540px;
     max-width: 540px;
 }
 
@@ -342,12 +342,12 @@ p.n-margin {
     .column-left .left-sidebar,
     .column-right .right-sidebar {
         position: fixed;
-        margin-top: $sidebar_top;
+        // margin-top: $sidebar_top;
         z-index: 100;
     }
 
-    .column-left .left-sidebar { background-color: #fafafa;
-        width: 540px;
+    .column-left .left-sidebar { border-right: 1px solid #E6E6E6;
+        background-color: #fafafa; // width: 540px;
         padding-left: 0px;
     }
 
