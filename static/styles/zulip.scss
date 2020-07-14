@@ -338,7 +338,7 @@ p.n-margin {
 .app-main {
     height: 100%;
     min-height: 100%;
-    
+    .column-* { position: fixed; top: 40px; min-height: calc(100% - 40px);}
     .column-left .left-sidebar,
     .column-right .right-sidebar { overflow-y: auto;
         position: fixed;
@@ -357,7 +357,7 @@ p.n-margin {
     }
 
     .column-middle {
-        min-height: calc(100% - 40px); width: calc(100% - 540px); position: absolute; right: 0px;
+        width: calc(100% - 540px); position: absolute; right: 0px;
     }
 }
 
