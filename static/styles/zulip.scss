@@ -47,6 +47,10 @@ html {
 
 .app-main .column-left {
     left: 0px;
+    li a {
+        color: $ink;
+        text-decoration: none;  
+    }
 }
 
 .app-main .column-middle {
