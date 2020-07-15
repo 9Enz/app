@@ -29,7 +29,6 @@ html {
     background-color: #1185DD;
 }
 
-
 .app-main .column-left {
     position: fixed;
     top: $headerheight;
@@ -40,4 +39,13 @@ html {
     position: fixed;
     top: $headerheight;
     left: 540px;
-}    
+}
+
+#private-container {
+    position: fixed;
+    top: $headerheight;
+    left: 220px;
+    width: 319px;
+    min-height: calc(100% - $headerheight);
+    border-right: 1px solid #E6E6E6;
+}
