@@ -1,4 +1,5 @@
 $headerheight: 40px;
+$columnheight: 59px;
 $leftgutter:    8px;
 $leftcolumn:   32px;
 $topicindent: calc($leftgutter + $leftcolumn + 4px);
@@ -6,7 +7,7 @@ $topicindent: calc($leftgutter + $leftcolumn + 4px);
 
 #private-container {
     position: fixed;
-    top: $headerheight;
+    top: calc($headerheight + $columnheight + 1px);
     left: 220px;
     width: 319px;
     min-height: calc(100% - $headerheight);
@@ -17,6 +18,16 @@ $topicindent: calc($leftgutter + $leftcolumn + 4px);
 #global_filters {
     font-size: 14px;
     margin: 10px 0 0 0;
+}
+
+#tab_bar {
+    position: fixed;
+    top: $headerheight;
+    left: 220px;
+    width: 319px;
+    height: $columnheight;
+    border-right:  1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
 }
 
 .topic-list {
