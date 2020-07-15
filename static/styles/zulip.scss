@@ -15,3 +15,14 @@ html {
     display: none !important; /* loaded, hide */
 }
 
+.app-main .column-left {
+    position: fixed;
+    top: $headerheight;
+    left: 0px;
+}
+
+.app-main .column-middle {
+    position: fixed;
+    top: $headerheight;
+    left: 540px;
+}    
