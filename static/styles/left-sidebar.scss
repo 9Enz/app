@@ -18,3 +18,12 @@ $topicindent: calc($leftgutter + $leftcolumn + 4px);
     font-size: 14px;
     margin: 10px 0 0 0;
 }
+
+.topic-list {
+    position: fixed;
+    top: $headerheight;
+    left: 220px;
+    width: 319px;
+    min-height: calc(100% - $headerheight);
+    border-right: 1px solid #E6E6E6;
+}
