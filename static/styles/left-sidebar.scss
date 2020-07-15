@@ -38,6 +38,32 @@ $topicindent: calc($leftgutter + $leftcolumn + 4px);
     min-height: calc(100% - $headerheight);
 }
 
+#global_filters {
+    .filter-icon {
+        display: inline-block;
+        min-width: $leftcolumn;
+        text-align: center;
+    }
+
+    .count {
+        margin-right: 0px;
+        margin-top: 5px;
+        display: none;
+    }
+
+    i {
+        opacity: 0.7;
+        font-size: 21px;
+    }
+}
+
+.top_left_row,
+.bottom_left_row,
+.top_left_private_messages {
+    padding: 6px 0px; 
+    border-radius: 0px;
+}
+
 .topic-unread-count {
     display: inline-block;
 }
