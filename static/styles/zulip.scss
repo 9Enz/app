@@ -1,5 +1,14 @@
 $headerheight: 40px;
-
+$ink:       #000000E0;
+$blue:      #1185DD;
+$orange:    #DD8511;
+$green:     #7AB800;
+$purple:    #8511DD;
+$yellow:    #DD8511;
+$red:       #B8007A;
+$border:    1px solid #E6E6E6;
+$hover:     #E6E6E6;
+$selected:  #EBEBEB;
 
 body,
 html {
@@ -26,7 +35,7 @@ html {
 }
 
 #top_navbar {
-    background-color: #1185DD;
+    background-color: $blue;
 }
 
 .app-main .column-left,
@@ -45,7 +54,7 @@ html {
 }
 
 .app-main .column-right {
-    display: none // right: 0px;
+    display: none;
 }
 
 
