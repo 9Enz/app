@@ -64,6 +64,12 @@ $topicindent: calc($leftgutter + $leftcolumn + 4px);
     border-radius: 0px;
 }
 
+.top_left_row:hover,
+.bottom_left_row:hover,
+.top_left_private_messages:hover {
+    background-color: #E6E6E6;
+}
+
 .topic-unread-count {
     display: inline-block;
 }
