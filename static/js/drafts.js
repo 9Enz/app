@@ -6,6 +6,11 @@ function set_count(count) {
     const text = i18n.t('Drafts (__draft_count__)', {draft_count: draft_count});
     $(".compose_drafts_button").text(text);
     $(".left_column_drafts").text(draft_count);
+    if (count > 0) {
+        $(".left_column_drafts").show();
+    } else {
+        $(".left_column_drafts").hide();
+    }
 }
 
 const draft_model = (function () {
