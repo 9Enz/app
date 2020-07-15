@@ -5,7 +5,8 @@ $leftcolumn:   32px;
 $topicindent: calc($leftgutter + $leftcolumn + 4px);
 
 
-#private-container {
+#private-container,
+.topic-list {
     position: fixed;
     top: calc($headerheight + $columnheight + 1px);
     left: 220px;
@@ -37,11 +38,3 @@ $topicindent: calc($leftgutter + $leftcolumn + 4px);
     min-height: calc(100% - $headerheight);
 }
 
-.topic-list {
-    position: fixed;
-    top: $headerheight;
-    left: 220px;
-    width: 319px;
-    min-height: calc(100% - $headerheight);
-    border-right: 1px solid #E6E6E6;
-}
