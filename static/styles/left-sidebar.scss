@@ -30,6 +30,13 @@ $topicindent: calc($leftgutter + $leftcolumn + 4px);
     border-bottom: 1px solid #E6E6E6;
 }
 
+.narrows_panel {
+    width: 219px;
+    max-width: 219px;
+    border-right: 1px solid #E6E6E6;
+    min-height: calc(100% - $headerheight);
+}
+
 .topic-list {
     position: fixed;
     top: $headerheight;
