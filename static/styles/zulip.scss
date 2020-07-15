@@ -15,6 +15,20 @@ html {
     display: none !important; /* loaded, hide */
 }
 
+.header {
+    position: fixed;
+    z-index: 102; /* Needs to be higher than .alert-bar-container */
+    width: 100%;
+    height: $headerheight;
+    max-height: $headerheight;
+    padding 0px;
+}
+
+#top_navbar {
+    background-color: #1185DD;
+}
+
+
 .app-main .column-left {
     position: fixed;
     top: $headerheight;
