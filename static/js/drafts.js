@@ -7,10 +7,8 @@ function set_count(count) {
     $(".compose_drafts_button").text(text);
     $(".left_column_drafts").text(draft_count);
     if (count > 0) {
-        console.log(">0");
         $(".drafts-link .count").show();
     } else {
-        console.log("<0");
         $(".drafts-link .count").hide();
     }
 }
