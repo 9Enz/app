@@ -1,4 +1,7 @@
 $headerheight: 40px;
+$leftgutter:    8px;
+$leftcolumn:   32px;
+$topicindent: calc($leftgutter + $leftcolumn + 4px);
 
 
 #private-container {
@@ -18,8 +21,8 @@ $headerheight: 40px;
 
 #stream_filters {
     overflow: visible;
-    max-width: 219px; //margin-bottom: 10px;
-    margin: 10px 0px; //-right: 12px;
+    max-width: 219px; 
+    margin: 10px 0px; 
     padding: 0;
     font-weight: normal;
 
@@ -28,14 +31,11 @@ $headerheight: 40px;
             padding: 1px 0px;
         }
 
-        ul { //border-right: 1px solid #E6E6E6;
+        ul { 
             margin-left: 0px;
 
             &.topic-list li {
-                padding: 6px 0px 6px $topic_indent; //-top: 2px;
-                // padding-right: 0px;
-                // padding-bottom: 2px;
-                // padding-left: $topic_indent;
+                padding: 6px 0px 6px $topicindent; 
             }
         }
     }
@@ -51,7 +51,7 @@ $headerheight: 40px;
     .subscription_block {
         padding: 0px;
         margin-right: 25px;
-        margin-left: $far_left_gutter_size;
+        margin-left: $leftgutter;
         display: flex;
         justify-content: space-between;
         align-items: center;
