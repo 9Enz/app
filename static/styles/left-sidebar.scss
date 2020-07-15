@@ -38,3 +38,6 @@ $topicindent: calc($leftgutter + $leftcolumn + 4px);
     min-height: calc(100% - $headerheight);
 }
 
+.topic-unread-count {
+    display: inline-block;
+}
