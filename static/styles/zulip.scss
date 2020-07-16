@@ -92,5 +92,17 @@ html {
     position: absolute !important;
 }
 
+.preserve_spaces {
+    white-space: pre-wrap;
+}
+
+.logout {
+    white-space: nowrap;
+}
+
+.sidebar-title {
+    font-size: 14px;
+    display: inline;
+}
 
 .brand, .top-messages-logo, #searchbox_form {display: none!important;} // temp hiding
