@@ -537,10 +537,10 @@ Filter.prototype = {
         switch (term_types[0]) {
         case 'in-home':
         case 'in-all':
-            return 'home';
+            return 'inbox';
         case 'stream':
             if (!this._sub) {
-                return 'question-circle-o';
+                return 'question-circle';
             }
             if (this._sub.invite_only) {
                 return 'lock';
@@ -550,13 +550,13 @@ Filter.prototype = {
             }
             return 'hashtag';
         case 'is-private':
-            return 'envelope';
+            return 'sms';
         case 'is-starred':
             return 'star';
         case 'is-mentioned':
             return 'at';
         case 'pm-with':
-            return 'envelope';
+            return 'sms';
         }
     },
 
