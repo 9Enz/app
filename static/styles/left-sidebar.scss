@@ -39,6 +39,9 @@ $selected:  #EBEBEB;
     height: $columnheight;
     border-right:  $border;
     border-bottom: $border;
+    margin: 10px 5px 5px 5px;
+    a { font-size: 16px; }
+    i { font-size: 21px; }
 }
 
 .narrows_panel {
