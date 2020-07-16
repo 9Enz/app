@@ -1,1 +1,25 @@
+.alert-display {
+    display: none;
 
+    &.show {
+        display: block;
+    }
+}
+
+.alert-animations {
+    &.show {
+        animation-name: fadeIn;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+    }
+
+    &.fade-out {
+        animation-name: fadeOut;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+    }
+
+    .faded {
+        opacity: 0.7;
+    }
+}
