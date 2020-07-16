@@ -1,5 +1,6 @@
 $headerheight: 40px;
 $ink:       #000000E0;
+$columnone: #FAFAFA;
 $blue:      #1185DD;
 $orange:    #DD8511;
 $green:     #7AB800;
@@ -47,6 +48,7 @@ html {
 
 .app-main .column-left {
     left: 0px;
+    background-color: $columnone;
     li a {
         color: $ink;
         text-decoration: none;  
