@@ -40,8 +40,18 @@ $selected:  #EBEBEB;
     border-right:  $border;
     border-bottom: $border;
     margin: 10px 5px 5px 5px;
-    a { font-size: 16px; }
+    a { 
+        font-size: 16px; 
+        text-decoration: none;
+    }
     i { font-size: 21px; }
+}
+
+.rendered_markdown {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .narrows_panel {
