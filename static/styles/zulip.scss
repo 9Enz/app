@@ -39,6 +39,12 @@ html {
     background-color: $blue;
 }
 
+.alert-box {
+    position: fixed;
+    left: calc(540px + (100% - 540px) * 0.125);
+    top: 25%;
+    z-index: 999;
+}
 .home-error-bar {
     display: none;
     width: 75%;
