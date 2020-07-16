@@ -78,6 +78,19 @@ html {
     display: none;
 }
 
+.notdisplayed {
+    display: none !important;
+}
+
+.notvisible {
+    visibility: hidden !important;
+    width: 0px !important;
+    min-width: 0px !important;
+    min-height: 0px !important;
+    height: 0px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+}
 
 
 .brand, .top-messages-logo, #searchbox_form {display: none!important;} // temp hiding
