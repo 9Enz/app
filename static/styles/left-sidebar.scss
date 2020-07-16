@@ -1,5 +1,6 @@
 $headerheight: 40px;
 $columnheight: 59px;
+$toptopiclist:120px; 
 $leftgutter:    8px;
 $leftcolumn:   36px;
 $topicindent: calc($leftgutter + $leftcolumn + 4px);
@@ -23,10 +24,10 @@ hr {
 #private-container,
 .topic-list {
     position: fixed;
-    top: calc($headerheight + $columnheight + 1px);
+    top: $toptopiclist;
     left: 220px;
     width: 319px;
-    min-height: calc(100% - $headerheight);
+    min-height: calc(100% - $toptopiclist);
     border-right: $border;
 }
 
