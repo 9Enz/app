@@ -39,6 +39,49 @@ html {
     background-color: $blue;
 }
 
+#navbar-buttons {
+    white-space: nowrap;
+    margin-left: 15px;
+    margin-top: 7px;
+    display: inline-block;
+    float: right;
+
+    ul.nav {
+        margin: 0px;
+
+        .dropdown-toggle,
+        li.active .dropdown-toggle {
+            font-size: 20px;
+            color: inherit;
+            opacity: 0.5;
+            text-shadow: none;
+            padding-left: 0px !important;
+            background-color: inherit;
+            box-shadow: inherit;
+            display: block;
+            position: absolute;
+            right: 6px;
+            top: -3px;
+        }
+
+        .dropdown-toggle,
+        li.active .dropdown-toggle:hover {
+            opacity: 1;
+        }
+
+        li.dropdown.open .dropdown-toggle {
+            background: none;
+            opacity: 1;
+            text-shadow: none;
+        }
+
+        li.dropdown li.divider {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+}
+
 .alert-box {
     position: fixed;
     left: calc(540px + (100% - 540px) * 0.125);
