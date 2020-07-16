@@ -3,15 +3,14 @@
 <li class="narrow-filter{{#if is_muted}} out_of_home_view{{/if}}" data-stream-id="{{id}}">
     <div class="bottom_left_row">
         <div class="subscription_block selectable_sidebar_block">
-
-            <span id="stream_sidebar_privacy_swatch_{{id}}" class="stream-privacy filter-icon" style="color: {{color}}">
-                {{> stream_privacy }}
-            </span>
-
-            <a href="{{uri}}" class="stream-name">{{name}}</a>
-
-            <span class="count"><span class="value"></span></span>
+            <a href="{{uri}}" class="stream-name">
+                <span id="stream_sidebar_privacy_swatch_{{id}}" class="stream-privacy filter-icon" style="color: {{color}}">
+                    {{> stream_privacy }}
+                </span>
+                <span title="{{name}}">{{name}}</span>
+                <span class="count"><span class="value"></span></span>
+            </a>
+            <span class="arrow stream-sidebar-menu-icon"><i class="la la-ellipsis-v" aria-hidden="true"></i></span>
         </div>
-        <span class="stream-sidebar-menu-icon"><i class="la la-ellipsis-v" aria-hidden="true"></i></span>
     </div>
 </li>
