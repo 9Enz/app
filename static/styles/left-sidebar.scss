@@ -48,7 +48,8 @@ $selected:  #EBEBEB;
     min-height: calc(100% - $headerheight);
 }
 
-#global_filters {
+#global_filters,
+#stream_filters {
     .filter-icon {
         display: inline-block;
         min-width: $leftcolumn;
