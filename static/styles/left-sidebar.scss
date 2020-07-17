@@ -4,6 +4,7 @@ $toptopiclist: calc($headerheight + $columnheight + 8px);
 $leftgutter:    8px;
 $leftcolumn:   36px;
 $topicindent:  calc($leftgutter + $leftcolumn + 4px);
+$columnone: #FAFAFA;
 $ink:       #000000E0;
 $blue:      #1185DD;
 $orange:    #DD8511;
@@ -50,6 +51,7 @@ hr {
     height: $columnheight;
     border-right:  $border;
     border-bottom: $border;
+    background-color: $columnone;
     padding: 10px 12px;
     .stream { 
         font-size: 16px; 
