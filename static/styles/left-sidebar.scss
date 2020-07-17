@@ -1,9 +1,9 @@
-$headerheight: 40px;
-$columnheight: 59px;
-$toptopiclist:120px; 
+$headerheight: 48px;
+$columnheight: 72px;
+$toptopiclist: calc($headerheight + $columnheight + 8px); 
 $leftgutter:    8px;
 $leftcolumn:   36px;
-$topicindent: calc($leftgutter + $leftcolumn + 4px);
+$topicindent:  calc($leftgutter + $leftcolumn + 4px);
 $ink:       #000000E0;
 $blue:      #1185DD;
 $orange:    #DD8511;
