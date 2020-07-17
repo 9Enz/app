@@ -16,8 +16,8 @@ $selected:  #EBEBEB;
 
 body,
 html {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     overflow-x: hidden;
     overflow-y: hidden;
     touch-action: manipulation;
@@ -32,7 +32,7 @@ html {
     position: fixed;
     top: $null;
     z-index: 102; /* Needs to be higher than .alert-bar-container */
-    width: 100%;
+    width: 100vw;
     padding: 0px;
 }
 
@@ -108,6 +108,7 @@ html {
 .app-main .column-right {
     position: fixed;
     top: $headerheight;
+    height: calc(100vh - $headerheight);
 }
 
 .app-main .column-left {
@@ -187,8 +188,9 @@ div.message_table {
     height: $columnheight;
     background-color: #FAFAFA;
     border-bottom: 1px solid #e6e6e6;
+    padding: 10px 12px;
 }
-
+    
 // Temporary stuff
 
 .brand, .top-messages-logo, #searchbox_form {display: none!important;} // temp hiding
