@@ -29,6 +29,9 @@ hr {
     width: 319px;
     min-height: calc(100% - $toptopiclist);
     border-right: $border;
+}
+.topic-list,
+.expanded_private_messages {
     margin: 0px;
     list-style-type: none;
 }
@@ -104,14 +107,18 @@ hr {
     border-radius: 0px;
 }
 
-.top_left_row:hover,
-.bottom_left_row:hover,
-.top_left_private_messages:hover {
+.top_left_row:hover, .top_left_row:active,
+.bottom_left_row:hover, .bottom_left_row:active,
+.top_left_private_messages:hover, 
+.top_left_private_messages: active {
     background-color: $hover;
 }
 
-.topic-unread-count {
+.topic-unread-count,
+.private_message_count {
     display: inline-block;
+    float: right;
+    
 }
 
 .nav>li>a:hover {
