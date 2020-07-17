@@ -6,6 +6,7 @@ $leftcolumn:   36px;
 $topicindent:  calc($leftgutter + $leftcolumn + 4px);
 $columnone: #FAFAFA;
 $ink:       #000000E0;
+$gray:      #7B7B7B;
 $blue:      #1185DD;
 $orange:    #DD8511;
 $green:     #7AB800;
@@ -15,6 +16,7 @@ $red:       #B8007A;
 $border:    1px solid #E6E6E6;
 $hover:     #E6E6E6;
 $selected:  #EBEBEB;
+$fonts:     sans-serif,Segoe UI,BlinkMacSystemFont,Helvetica Neue,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 
 hr {
     margin: 0;
@@ -63,11 +65,12 @@ hr {
     }
 }
 
-.rendered_markdown {
+#tab_bar .rendered_markdown {
     display: block;
-    height: 2.5em;
+    height: 3em;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: $gray;
 }
 
 .narrows_panel {
