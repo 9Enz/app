@@ -80,7 +80,6 @@ hr {
 
     .arrow {
         float: right;
-        display: none;
     }
     
     .count {
@@ -96,6 +95,7 @@ hr {
     }
 }
 
+#stream_filters i { font-weight: 600; }
 .top_left_row,
 .bottom_left_row {
     padding: 5px; 
