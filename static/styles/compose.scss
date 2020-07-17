@@ -169,6 +169,7 @@ $hover:     #E6E6E6;
 }
 
 #compose {
+    position: fixed;
     top: $null;
     left: $twocolumns;
     z-index: 999;
