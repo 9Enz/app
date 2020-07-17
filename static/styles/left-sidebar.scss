@@ -30,7 +30,7 @@ hr {
     top: $toptopiclist;
     left: 220px;
     width: 319px;
-    min-height: calc(100% - $toptopiclist);
+    min-height: calc(100vh - $toptopiclist);
     border-right: $border;
 }
 .topic-list,
@@ -77,7 +77,7 @@ hr {
     width: 219px;
     max-width: 219px;
     border-right: $border;
-    min-height: calc(100% - $headerheight);
+    min-height: calc(100vh - $headerheight);
 }
 
 #global_filters,
@@ -111,6 +111,7 @@ hr {
 .bottom_left_row {
     padding: 5px; 
     border-radius: 0px;
+    a { display: block; }
 }
 
 .top_left_row:hover, .top_left_row:active,
