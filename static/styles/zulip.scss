@@ -110,6 +110,11 @@ html {
 .app-main .column-left {
     left: 0px;
     background-color: $columnone;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
     li a {
         color: $ink;
         text-decoration: none;  
