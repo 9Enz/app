@@ -30,6 +30,7 @@ hr {
     min-height: calc(100% - $toptopiclist);
     border-right: $border;
     margin: 0px;
+    list-style-type: none;
 }
 
 #stream_filters,
