@@ -151,4 +151,15 @@ html {
     display: inline;
 }
 
+// Middle colmun
+
+div.message_table {
+    border-collapse: separate;
+    margin-left: auto;
+    display: none;
+    width: 100%;
+}
+
+// Temporary stuff
+
 .brand, .top-messages-logo, #searchbox_form {display: none!important;} // temp hiding
