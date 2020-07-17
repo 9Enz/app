@@ -123,6 +123,9 @@ html {
 
 .app-main .column-middle {
     left: 540px;
+    width: calc(100% - 540px); 
+    position: absolute; 
+    right: 0px;
 }
 
 .app-main .column-right {
@@ -165,6 +168,13 @@ div.message_table {
     width: 100%;
 }
 
+.tab-content {
+    overflow: auto;
+
+    div.focused_table {
+        display: block;
+    }
+}
 // Temporary stuff
 
 .brand, .top-messages-logo, #searchbox_form {display: none!important;} // temp hiding
