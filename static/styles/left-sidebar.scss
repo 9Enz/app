@@ -111,3 +111,8 @@ hr {
 .topic-unread-count {
     display: inline-block;
 }
+
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: $hover;
+}
