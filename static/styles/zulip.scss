@@ -1,29 +1,30 @@
-$headerheight: 48px;
-$columnheight: 72px;
-$null:          0px;
-$twocolumns:  540px;
-$ink:       #000000E0;
-$gray:      #7B7B7B;
-$columnone: #FAFAFA;
-$blue:      #1185DD;
-$orange:    #DD8511;
-$green:     #7AB800;
-$purple:    #8511DD;
-$yellow:    #DD8511;
-$red:       #B8007A;
-$border:    1px solid #E6E6E6;
-$hover:     #E6E6E6;
-$selected:  #EBEBEB;
-$fonts:     sans-serif,Segoe UI,BlinkMacSystemFont,Helvetica Neue,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; 
+$headerheight:     48px;
+$columnheight:     72px;
+$null:              0px;
+$twocolumns:      540px;
+$ink:         #000000E0;
+$gray:          #7B7B7B;
+$columnone:     #FAFAFA;
+$blue:          #1185DD;
+$orange:        #DD8511;
+$green:         #7AB800;
+$purple:        #8511DD;
+$yellow:        #DD8511;
+$red:           #B8007A;
+$border:        1px solid #E6E6E6;
+$hover:         #E6E6E6;
+$selected:      #EBEBEB;
+$fonts:      sans-serif,Segoe UI,BlinkMacSystemFont,Helvetica Neue,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; 
 
 body,
 html {
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    touch-action: manipulation;
-    font-family: $fonts;
+    width:          100vw;
+    height:         100vh;
+    overflow-x:     hidden;
+    overflow-y:     hidden;
+    touch-action:   manipulation;
+    font-family:    $fonts;
+    font-size:      12px;
 }
 
 #app-loading.loaded {
