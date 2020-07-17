@@ -175,6 +175,17 @@ div.message_table {
         display: block;
     }
 }
+
+.message-header-contents {
+    position: fixed;
+    top: 40px;
+    left: 540px;
+    width: calc(100% - 540px);
+    height: 79px;
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #e6e6e6;
+}
+
 // Temporary stuff
 
 .brand, .top-messages-logo, #searchbox_form {display: none!important;} // temp hiding
