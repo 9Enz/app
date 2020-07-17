@@ -1,4 +1,7 @@
-$headerheight: 40px;
+$headerheight: 48px;
+$columnheight: 72px;
+$null:          0px;
+$twocolumns:  540px;
 $ink:       #000000E0;
 $columnone: #FAFAFA;
 $blue:      #1185DD;
@@ -27,7 +30,7 @@ html {
 
 .header {
     position: fixed;
-    top: 0px;
+    top: $null;
     z-index: 102; /* Needs to be higher than .alert-bar-container */
     width: 100%;
     padding: 0px;
@@ -86,8 +89,8 @@ html {
 .alert-box, 
 #panels {
     position: fixed;
-    left: calc(540px + (100% - 540px) * 0.125);
-    width: calc((100% - 540px) * 0.75);
+    left: calc($twocolumns + (100% - $twocolumns) * 0.125);
+    width: calc((100% - $twocolumns) * 0.75);
     top: 25%;
     z-index: 999;
 }
@@ -108,7 +111,7 @@ html {
 }
 
 .app-main .column-left {
-    left: 0px;
+    left: $null;
     background-color: $columnone;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -122,10 +125,10 @@ html {
 }
 
 .app-main .column-middle {
-    left: 540px;
-    width: calc(100% - 540px); 
+    left: $twocolumns;
+    width: calc(100% - $twocolumns); 
     position: absolute; 
-    right: 0px;
+    right: $null;
 }
 
 .app-main .column-right {
@@ -178,10 +181,10 @@ div.message_table {
 
 .message-header-contents {
     position: fixed;
-    top: 40px;
-    left: 540px;
-    width: calc(100% - 540px);
-    height: 79px;
+    $top: $headerheight;
+    left: $twocolumns;
+    width: calc(100% - $twocolumns);
+    height: $columnheight;
     background-color: #FAFAFA;
     border-bottom: 1px solid #e6e6e6;
 }
