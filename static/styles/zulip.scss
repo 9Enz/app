@@ -152,13 +152,11 @@ html {
     position: absolute !important;
 }
 
-.preserve_spaces {
-    white-space: pre-wrap;
-}
+.preserve_spaces { white-space: pre-wrap; }
 
-.logout {
-    white-space: nowrap;
-}
+.modal-bg { background-color: $columnone; }
+
+.logout { white-space: nowrap; }
 
 .sidebar-title {
     font-size: 14px;
