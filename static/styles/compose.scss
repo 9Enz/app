@@ -186,12 +186,7 @@ $hover:     #E6E6E6;
 
 .compose-content {
     padding: 8px 10px 8px 10px;
-    margin-left: 250px;
-    margin-right: 250px;
     position: relative;
-
-    border-left: 1px solid hsl(0, 0%, 93%);
-    border-right: 1px solid hsl(0, 0%, 93%);
 }
 
 #compose_close {
@@ -557,3 +552,5 @@ a#undo_markdown_preview {
         margin-left: 5px;
     }
 }
+
+
