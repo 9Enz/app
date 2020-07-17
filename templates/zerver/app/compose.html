@@ -14,52 +14,48 @@
                        title="{{ _('New topic') }} (c)"">
                         <span class="button-icon">
                             <i class="la la-tag" aria-hidden="true">
-                            <i class="la la-asterisk la-sub" aria-hidden="true">
+                            <i class="la la-plus-circle la-sub" aria-hidden="true">
                         </span>
                         {{ _('New topic') }}
                     </a>
-                    <span class="alert-draft pull-left">{{ _('Saved as draft') }}</span>
                 </span>
                 <span class="new_message_button">
                     <a class="drafts-link no-underline button small rounded compose_mobile_button" href="" 
                        title="{{ _('New message') }} (c)">
-                        <span class="button-icon">
-                            <i class="la la-edit" aria-hidden="true">
-                            <i class="la la-asterisk la-sub" aria-hidden="true">
+                        <span class="button-icon"></i>
+                            <i class="la la-stop" aria-hidden="true"></i>
+                            <i class="la la-plus-circle la-sub" aria-hidden="true"></i>
                         </span>
                         {{ _('New message') }}
                     </a>
-                    <span class="alert-draft pull-left">{{ _('Saved as draft') }}</span>
                 </span>
                 {% if not embedded %}
                 <span class="new_message_button">
                     <a class="drafts-link no-underline button small rounded compose_private_button" href="" 
                        title="{{ _('New private chat') }} (x)">
                         <span class="button-icon">
-                            <i class="la la-edit" aria-hidden="true">
-                            <i class="la la-asterisk la-sub" aria-hidden="true">
+                            <i class="la la-sms" aria-hidden="true"></i>
+                            <i class="la la-plus-circle la-sub" aria-hidden="true"></i>
                         </span>
                         {{ _('New chat') }}
                     </a>
-                    <span class="alert-draft pull-left">{{ _('Saved as draft') }}</span>
                 </span>
                 {% endif %}
                 <span class="new_message_button">
-                    <a class="drafts-link no-underline button small rounded compose_reply_button" href="" 
+                    <a class="drafts-link no-underline button small rounded compose_reply_button" 
                        title="{{ _('Reply') }} (r)">
                         <span class="button-icon">
-                            <i class="la la-replyd" aria-hidden="true">
+                            <i class="la la-reply" aria-hidden="true"></i>
+                            <i class="la la-plus-circle la-sub" aria-hidden="true"></i>
                         </span>
                         {{ _('Reply') }}
                     </a>
-                    <span class="alert-draft pull-left">{{ _('Saved as draft') }}</span>
                 </span>
                 <span class="new_message_button">
                     <a class="drafts-link no-underline button small rounded compose_drafts_button" href="#drafts" 
                         title="{{ _('Drafts') }} (d)">
                         <span class="button-icon">
-                            <i class="la la-edit" aria-hidden="true">
-                            <i class="la la-asterisk la-sub" aria-hidden="true">
+                            <i class="la la-edit" aria-hidden="true"></i>
                         </span>
                         {{ _('Drafts') }}
                     </a>
