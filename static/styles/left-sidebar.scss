@@ -95,8 +95,9 @@ hr {
     
     .count {
         margin-right: 0px;
-        margin-top: 5px;
+        margin-top: 0px;
         display: none;
+        float:right;
     }
 
     i {
@@ -121,6 +122,7 @@ hr {
 .top_left_private_messages:hover, 
 .top_left_private_messages:active {
     background-color: $hover;
+    display: inline-block;
 }
 
 .topic-unread-count,
