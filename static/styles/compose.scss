@@ -57,7 +57,7 @@ $hover:     #E6E6E6;
     }
     
     .new_message_button:hover {
-            opacity: 1;
+            opacity: 0.7;
         }
 }
 
@@ -518,18 +518,6 @@ a#undo_markdown_preview {
 }
 
 /* This max-width must be synced with message_viewport.is_narrow */
-@media (max-width: 1165px) {
-    .compose-content {
-        margin-right: 7px;
-    }
-}
-
-@media (max-width: 775px) {
-    .compose-content {
-        margin-right: 7px;
-        margin-left: 7px;
-    }
-}
 
 @media (max-width: 500px) {
     .compose_stream_button,
