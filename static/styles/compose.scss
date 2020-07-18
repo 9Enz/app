@@ -18,6 +18,10 @@ $hover:     #E6E6E6;
 
     .new_message_button {
         padding-top: 2px;
+        
+        &:hover {
+            opacity: 1;
+        }
 
         .button.small {
             font-size: 1em;
@@ -555,7 +559,6 @@ a#undo_markdown_preview {
 #compose .button-icon {
     font-size: 25px;
     color: white;
-    border-radius: 50%;
     background-color: $blue;
 }
 
