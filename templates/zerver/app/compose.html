@@ -15,10 +15,7 @@
                             <i class="la la-tag" aria-hidden="true"></i>
                         </span><span class="la-sub">
                             <i class="la la-plus-circle la-sub" aria-hidden="true"></i>
-                        </span><!--
-                        <span class="button-label">
-                            {{ _('New topic') }}
-                        </span>-->
+                        </span>
                     </a>
                 </div>
                 <div class="new_message_button">
@@ -29,10 +26,7 @@
                         </span>
                         <span class="la-sub">
                             <i class="la la-plus-circle la-sub" aria-hidden="true"></i>
-                        </span><!--
-                        <span class="button-label">
-                            {{ _('New message') }}
-                        </span>-->
+                        </span>
                     </a>
                 </div>
                 {% if not embedded %}
@@ -44,10 +38,7 @@
                         </span>
                         <span class="la-sub">
                             <i class="la la-plus-circle la-sub" aria-hidden="true"></i>
-                        </span><!--
-                        <span class="button-label">
-                            {{ _('New chat') }}
-                        </span>-->
+                        </span>
                     </a>
                 </div>
                 {% endif %}
@@ -59,55 +50,17 @@
                         </span>
                         <span class="la-sub">
                             <i class="la la-plus-circle la-sub" aria-hidden="true"></i>
-                        </span><!--
-                        <span class="button-label">
-                            {{ _('Reply') }}
-                        </span>-->
+                        </span>
                     </a>
                 </div>
                 <div class="new_message_button">
-                    <a class="drafts-link compose_drafts_button" href="#drafts" 
-                        title="{{ _('Drafts') }} (d)">
+                    <a class="drafts-link compose_drafts_button" href="#drafts" title="{{ _('Drafts') }} (d)">
                         <span class="button-icon">
                             <i class="la la-edit" aria-hidden="true"></i>
-                        </span><!--
-                        <span class="button-label">
-                            {{ _('Drafts') }}
-                        </span>-->
+                        </span>
                     </a>
                 </div>
-                <span class="alert-draft pull-left">{{ _('Saved as draft') }}</span>
- <!--                   
-                <span class="new_message_button">
-                    <button type="button" class="button small rounded compose_mobile_button"
-                      id="left_bar_compose_mobile_button_big"
-                      title="{{ _('New message') }} (c)">
-                        <span>+</span>
-                    </button>
-                </span>
-                <span class="new_message_button">
-                    <button type="button" class="button small rounded compose_stream_button"
-                      id="left_bar_compose_stream_button_big"
-                      title="{{ _('New topic') }} (c)">
-                        <span class="compose_stream_button_label">{{ _('New topic') }}</span>
-                    </button>
-                </span>
-                {% if not embedded %}
-                <span class="new_message_button">
-                    <button type="button" class="button small rounded compose_private_button"
-                      id="left_bar_compose_private_button_big"
-                      title="{{ _('New private message') }} (x)">
-                        <span class="compose_private_button_label">{{ _('New private message') }}</span>
-                    </button>
-                </span>
-                {% endif %}
-                <span class="new_message_button">
-                    <button type="button" class="button small rounded compose_reply_button"
-                      id="left_bar_compose_reply_button_big"
-                      title="{{ _('Reply') }} (r)">
-                        <span class="compose_reply_button_label">{{ _('Reply') }}</span>
-                    </button>
-                </span>  -->
+                <span class="alert-draft">{{ _('Saved as draft') }}</span>
             </div>
         </div>
         <div class="message_comp compose-content">
