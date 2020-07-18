@@ -101,6 +101,7 @@ hr {
     }
 
     i {
+        padding-bottom: 2px;
         opacity: 0.7;
         font-size: 21px; 
         vertical-align: middle;
@@ -114,7 +115,10 @@ hr {
 .bottom_left_row {
     padding: 5px; 
     border-radius: 0px;
-    a { display: block; }
+    a { 
+        display: inline-block;
+        width: calc(100% - 21px);
+    }
 }
 
 .top_left_row:hover, .top_left_row:active,
