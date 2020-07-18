@@ -18,6 +18,9 @@ $hover:     #E6E6E6;
 
     .new_message_button {
         padding-top: 2px;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
 
         .button.small {
             font-size: 1em;
