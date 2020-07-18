@@ -8,9 +8,8 @@
                 <span id="compose-reply-error-msg"></span>
             </div>
             <div id="compose_buttons">
-                <span class="new_message_button">
+                <div class="new_message_button">
                     <a class="compose_stream_button" 
-                       id="left_bar_compose_stream_button_big"
                        title="{{ _('New topic') }} (c)">
                         <span class="button-icon">
                             <i class="la la-tag" aria-hidden="true"></i>
@@ -18,11 +17,13 @@
                         <span class="la-sub">
                             <i class="la la-plus-circle la-sub" aria-hidden="true"></i>
                         </span>
-                        {{ _('New topic') }}
+                        <span class="button-label">
+                            {{ _('New topic') }}
+                        </span>
                     </a>
-                </span>
-                <span class="new_message_button">
-                    <a class="rounded compose_mobile_button" 
+                </div>
+                <div class="new_message_button">
+                    <a class="compose_mobile_button" 
                        title="{{ _('New message') }} (c)">
                         <span class="button-icon">
                             <i class="la la-stop" aria-hidden="true"></i>
@@ -30,12 +31,14 @@
                         <span class="la-sub">
                             <i class="la la-plus-circle la-sub" aria-hidden="true"></i>
                         </span>
-                        {{ _('New message') }}
+                        <span class="button-label">
+                            {{ _('New message') }}
+                        </span>
                     </a>
-                </span>
+                </div>
                 {% if not embedded %}
-                <span class="new_message_button">
-                    <a class="rounded compose_private_button" 
+                <div class="new_message_button">
+                    <a class="compose_private_button" 
                        title="{{ _('New private chat') }} (x)">
                         <span class="button-icon">
                             <i class="la la-sms" aria-hidden="true"></i>
@@ -43,12 +46,14 @@
                         <span class="la-sub">
                             <i class="la la-plus-circle la-sub" aria-hidden="true"></i>
                         </span>
-                        {{ _('New chat') }}
+                        <span class="button-label">
+                            {{ _('New chat') }}
+                        </span>
                     </a>
-                </span>
+                </div>
                 {% endif %}
-                <span class="new_message_button">
-                    <a class="rounded compose_reply_button" 
+                <div class="new_message_button">
+                    <a class="compose_reply_button" 
                        title="{{ _('Reply') }} (r)">
                         <span class="button-icon">
                             <i class="lab la-replyd" aria-hidden="true"></i>
@@ -56,19 +61,23 @@
                         <span class="la-sub">
                             <i class="la la-plus-circle la-sub" aria-hidden="true"></i>
                         </span>
-                        {{ _('Reply') }}
+                        <span class="button-label">
+                            {{ _('Reply') }}
+                        </span>
                     </a>
-                </span>
-                <span class="new_message_button">
+                </div>
+                <div class="new_message_button">
                     <a class="drafts-link compose_drafts_button" href="#drafts" 
                         title="{{ _('Drafts') }} (d)">
                         <span class="button-icon">
                             <i class="la la-edit" aria-hidden="true"></i>
                         </span>
-                        {{ _('Drafts') }}
+                        <span class="button-label">
+                            {{ _('Drafts') }}
+                        </span>
                     </a>
-                    <span class="alert-draft pull-left">{{ _('Saved as draft') }}</span>
-                </span>
+                </div>
+                <span class="alert-draft pull-left">{{ _('Saved as draft') }}</span>
  <!--                   
                 <span class="new_message_button">
                     <button type="button" class="button small rounded compose_mobile_button"
