@@ -4,7 +4,11 @@ const render_draft_table_body = require('../templates/draft_table_body.hbs');
 function set_count(count) {
     const draft_count = count.toString();
     const text = i18n.t('Drafts (__draft_count__)', {draft_count: draft_count});
-    $(".compose_drafts_button").text(draft_count);
+    if (count > 9) {
+        $(".compose_drafts_button").text(draft_count);
+    } else {
+        $(".compose_drafts_button").text("d");
+    }
     $(".left_column_drafts").text(draft_count);
     if (count > 0) {
         $(".drafts-link .count").show();
