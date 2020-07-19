@@ -69,6 +69,23 @@ $hover:     #E6E6E6;
     transition: background-color 200ms linear;
 }
 
+.compose_drafts_button {
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 1.2;
+    background-color: #1185DD;
+    padding: 0px 2px;
+    width: 1px;
+    /* height: 1px; */
+    min-width: fit-content;
+    color: white;
+    min-height: fit-content;
+    position: relative;
+    /* border: 1px solid white; */
+    top: -14px;
+    right: -12px;
+}
+
 .ztable_comp_col1 {
     width: 10px;
 }
