@@ -194,7 +194,13 @@ div.message_table {
     border-bottom: 1px solid #e6e6e6;
     padding: 10px 12px;
 }
-    
+
+.search_icon search_closed {
+    position: fixed;
+    top: 0px;
+    right: calc(100vw - $twocolumns);
+}
+
 // Temporary stuff
 
 .brand, .top-messages-logo, #searchbox_form {display: none!important;} // temp hiding
