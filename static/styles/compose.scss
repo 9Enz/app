@@ -66,20 +66,17 @@ $hover:     #E6E6E6;
 }
 
 .compose_drafts_button {
-    border-radius: 50%;
-    font-size: 12px;
-    line-height: 1.2;
+    border-radius: 8px;
+    font-size: 8px;
     background-color: #1185DD;
     padding: 0px 2px;
     width: 1px;
-    /* height: 1px; */
     min-width: fit-content;
     color: white;
-    min-height: fit-content;
     position: relative;
-    /* border: 1px solid white; */
-    top: -14px;
-    right: -12px;
+    border: 1px solid white;
+    top: -17px;
+    right: -14px;
 }
 
 .ztable_comp_col1 {
