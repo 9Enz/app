@@ -189,7 +189,7 @@ $hover:     #E6E6E6;
     top: $null;
     left: $twocolumns;
     z-index: 103;
-    width: calc(100% - $twocolumns);
+    width: fit-content;
     height: $columnheight;
 }
 
