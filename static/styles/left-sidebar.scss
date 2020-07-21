@@ -65,6 +65,25 @@ hr {
             color: $gray;
         }
     }
+    
+    .search_icon {
+        position: fixed;
+        top: $null;
+        right: 540px;
+        float: right;
+        font-size: 25px;
+        color: white;
+        background-color: $blue;
+    }
+    .navbar-search {
+        position: fixed;
+        float: left;
+        margin-top: 6px;
+        margin-bottom: 0;
+        top: 0px;
+        left: 220px;
+        z-index: 104;
+    }
 }
 
 #tab_bar .rendered_markdown {
