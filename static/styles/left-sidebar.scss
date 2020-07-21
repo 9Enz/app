@@ -3,6 +3,7 @@ $columnheight: 72px;
 $toptopiclist: calc($headerheight + $columnheight + 20px); 
 $leftgutter:    8px;
 $leftcolumn:   36px;
+$twocolumns:  540px;
 $topicindent:  calc($leftgutter + $leftcolumn + 4px);
 $null:          0px;
 $columnone: #FAFAFA;
@@ -70,9 +71,9 @@ hr {
     .search_icon {
         position: fixed;
         top: $null;
-        right: 540px;
+        right: calc(100vw - $twocolumns);
         float: right;
-        font-size: 25px;
+        font-size: 21px;
         color: white;
         background-color: $blue;
     }
