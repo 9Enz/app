@@ -89,6 +89,16 @@ html {
     }
 }
 
+.dropdown-menu {
+    position: unset;
+    float: right;
+    border-radius: 0;
+    
+    li>a:hover {
+        background-color: $hover;
+    }
+}
+
 .alert-box, 
 #panels {
     position: fixed;
