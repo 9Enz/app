@@ -72,10 +72,15 @@ hr {
         position: fixed;
         top: $null;
         right: calc(100vw - $twocolumns);
+        width: 32px;
+        height: 32px;
+        display: inline-block;
         float: right;
         font-size: 21px;
         color: white;
         background-color: $blue;
+        padding: 8px;
+        cursor: pointer;
     }
     .navbar-search {
         position: fixed;
