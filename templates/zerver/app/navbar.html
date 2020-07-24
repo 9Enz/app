@@ -44,8 +44,12 @@
             </div>
         </div>
         <div class="column-right">
+            <div id="X" title="{{user_full_name}}">
+                <div style="background-image: url('{{user_avatar}}');">
+                </div>
+            </div>
             <div id="userlist-toggle" title="{{ _('User list') }} (w)">
-                <a href="#" id="userlist-toggle-button" role="button"><i class="fa fa-group" aria-hidden="true"></i>
+                <a href="#" id="userlist-toggle-button" role="button"><i class="la la-user-circle" aria-hidden="true"></i>
                     <span id="userlist-toggle-unreadcount">0</span>
                 </a>
             </div>
@@ -53,7 +57,7 @@
                 <ul class="nav" role="navigation">
                     <li class="dropdown actual-dropdown-menu" id="gear-menu">
                         <a id="settings-dropdown" href="#" role="button" class="dropdown-toggle" data-target="nada" data-toggle="dropdown" title="{{ _('Menu') }} (g)">
-                            <i class="fa fa-cog settings-dropdown-cog" aria-hidden="true"></i>
+                            <i class="la la-ellipsis-v settings-dropdown-cog" aria-hidden="true"></i>
                         </a>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="settings-dropdown">
                             {#
@@ -64,12 +68,12 @@
                             <li class="invisible" style="display:none;" role="presentation"><a href="#home" data-toggle="tab"></a></li>
                             <li role="presentation">
                                 <a href="#streams/subscribed" role="menuitem">
-                                    <i class="fa fa-exchange" aria-hidden="true"></i> {{ _('Manage streams') }}
+                                    <i class="la la-stream" aria-hidden="true"></i> {{ _('Manage streams') }}
                                 </a>
                             </li>
                             <li role="presentation">
                                 <a href="#settings" role="menuitem">
-                                    <i class="fa fa-wrench" aria-hidden="true"></i> {{ _('Settings') }}
+                                    <i class="la la-wrench" aria-hidden="true"></i> {{ _('Settings') }}
                                 </a>
                             </li>
                             <li class="admin-menu-item" role="presentation">
