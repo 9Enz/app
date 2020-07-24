@@ -562,7 +562,8 @@ a#undo_markdown_preview {
     }
 }
 
-#compose .button-icon {
+#compose .button-icon,
+.nav .dropdown-toggle {
     font-size: 25px;
     color: white;
     background-color: $blue;
