@@ -252,6 +252,30 @@ div.message_table {
     right: calc(100vw - $twocolumns);
 }
 
+// Right column
+
+.nav {
+
+    .dropdown-toggle {
+        a {
+            padding: 8px;
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }
+    }
+    
+    .dropdown-menu {
+        position: fixed;
+        left: unset;
+        top: 48px;
+        right: 8px;
+        border-radius: 0px;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+    }
+}
+
 // Temporary stuff
 
 .brand, .top-messages-logo {display: none!important;} // temp hiding
