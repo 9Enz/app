@@ -166,3 +166,11 @@ hr {
     text-decoration: none;
     background-color: $hover;
 }
+
+// Second left column
+
+.pm-box .user_circle {
+    min-width: 12px;
+    height: 12px;
+    margin: -2px 8px 4px 8px;
+}
