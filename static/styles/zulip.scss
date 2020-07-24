@@ -211,6 +211,10 @@ html {
     }
 }
 
+#searchbox .navbar-search:not(.expanded), #searchbox_legacy .navbar-search:not(.expanded) {
+    display: none;
+}
+
 // Middle colmun
 
 div.message_table {
