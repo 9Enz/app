@@ -16,12 +16,16 @@ $hover:     #E6E6E6;
 
 #compose_buttons {
 
-    .new_message_button a {
-        padding: 8px;
+    .new_message_button {
         display: inline-block;
-        width: 32px;
-        height: 32px;
-        cursor: pointer;
+
+        a {
+            padding: 8px;
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }
 
         .button.small {
             font-size: 1em;
