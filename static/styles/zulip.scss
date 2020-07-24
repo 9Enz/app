@@ -27,6 +27,10 @@ html {
     font-size:      12px;
 }
 
+input {
+    border-radius: 0;
+}
+
 #app-loading.loaded {
     display: none !important; /* loaded, hide */
 }
@@ -190,7 +194,6 @@ html {
     top: 48px;
     left: 220px;
     background-color: $columnone;
-    border-bottom: $border;
     width: 319px;
     
     .search_button {
