@@ -43,7 +43,6 @@ html {
     height: $headerheight;
     max-height: $headerheight;
     background-color: $blue;
-    
 }
 
 #navbar-buttons {
@@ -194,8 +193,7 @@ html {
     border-bottom: $border;
     width: 319px;
     
-    btn search_button {
-//    #searchbox .search_button, #searchbox .search_button[disabled]:hover, #searchbox_legacy .search_button, #searchbox_legacy .search_button[disabled]:hover {
+    .search_button {
         position: absolute;
         right: 35px;
         top: 6px;
