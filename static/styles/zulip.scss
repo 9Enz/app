@@ -112,9 +112,9 @@ input {
 .alert-box, 
 #panels {
     position: fixed;
-    left: calc($twocolumns + (100% - $twocolumns) * 0.125);
-    width: calc((100% - $twocolumns) * 0.75);
-    top: 25%;
+    top: $headerheight;
+    left: 0;
+    width: 100vw;
     z-index: 999;
 }
 
@@ -194,18 +194,31 @@ input {
     top: 48px;
     left: 220px;
     background-color: $columnone;
-    width: 319px;
+    width: 309px;
+    margin: 10px 5px;
+    
+    #search_arrows {
+        width: 277px;
+        vertical-align: top;
+        
+        .search_icon {
+            font-size: 21px;
+            display: inline-block;
+            padding: 5px 12px 0px 8px;
+        }
+    }
     
     .search_button {
         position: absolute;
-        right: 35px;
+        right: 0px;
         top: 6px;
+        float: right;
         background: 0 0;
         border-radius: 0;
         border: none;
         height: 30px;
         text-align: center;
-        padding: 4px;
+        padding: 9px 4px;
         color: #ccc;
         font-size: 18px;
         box-shadow: none;
@@ -216,6 +229,20 @@ input {
 
 #searchbox .navbar-search:not(.expanded), #searchbox_legacy .navbar-search:not(.expanded) {
     display: none;
+}
+
+#search-query {
+    border-radius: 0;
+    border: 0;
+    background-color: unset;
+}
+
+#search-icon {
+    display: inline-block;
+    margin: 
+    }
+        font-size: 21px;
+    }
 }
 
 // Middle colmun
