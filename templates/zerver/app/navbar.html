@@ -8,7 +8,7 @@
         <div class="column-middle" id="navbar-middle">
             <div class="column-middle-inner">
                 <div id="streamlist-toggle" title="{{ _('Stream list') }} (q)" {%if embedded %} style="visibility: hidden"{% endif %}>
-                    <a href="#" id="streamlist-toggle-button" role="button"><i class="fa fa-reorder" aria-hidden="true"></i>
+                    <a href="#" id="streamlist-toggle-button" role="button"><i class="la la-sort reorder" aria-hidden="true"></i>
                         <span id="streamlist-toggle-unreadcount">0</span>
                     </a>
                 </div>
@@ -19,10 +19,10 @@
                         </div>
                         <form id="searchbox_form" class="form-search navbar-search">
                             <div id="search_arrows" class="pill-container input-append">
-                                <span class="search_icon search_open" ><i class="fa fa-search" aria-hidden="true"></i></span>
+                                <span class="search_icon search_open" ><i class="la la-search" aria-hidden="true"></i></span>
                                 <div contenteditable="true" class="input search-query input-block-level" id="search_query" type="text" placeholder="{{ _('Search') }}"
                                   autocomplete="off" aria-label="{{ _('Search') }}" title="{{ _('Search') }} (/)"> </div>
-                                <button class="btn search_button" type="button" id="search_exit" aria-label="{{ _('Exit search') }}"><i class="fa fa-remove" aria-hidden="true"></i></button>
+                                <button class="btn search_button" type="button" id="search_exit" aria-label="{{ _('Exit search') }}"><i class="la la-times" aria-hidden="true"></i></button>
                             </div>
                         </form>
                     </div>
@@ -78,14 +78,14 @@
                             </li>
                             <li class="admin-menu-item" role="presentation">
                                 <a href="#organization" role="menuitem">
-                                    <i class="fa fa-bolt" aria-hidden="true"></i>
+                                    <i class="la la-cog" aria-hidden="true"></i>
                                     <span>{{ _('Manage organization') }}</span>
                                 </a>
                             </li>
                             <li class="divider"></li>
                             <li role="presentation">
                                 <a href="/help" target="_blank" rel="noopener noreferrer" role="menuitem">
-                                    <i class="fa fa-question-circle" aria-hidden="true"></i> {{ _('Help center') }}
+                                    <i class="la la-question-circle" aria-hidden="true"></i> {{ _('Help center') }}
                                 </a>
                             </li>
                             <li role="presentation">
@@ -100,7 +100,7 @@
                             </li>
                             <li role="presentation">
                                 <a tabindex="0" role="menuitem" data-overlay-trigger="search-operators">
-                                    <i class="fa fa-search" aria-hidden="true"></i> {{ _('Search operators') }}
+                                    <i class="la la-search" aria-hidden="true"></i> {{ _('Search operators') }}
                                 </a>
                             </li>
                             {% if corporate_enabled %}
@@ -118,7 +118,7 @@
                             </li>
                             <li role="presentation">
                                 <a href="/integrations" target="_blank" rel="noopener noreferrer" role="menuitem">
-                                    <i class="fa fa-github" aria-hidden="true"></i> {{ _('Integrations') }}
+                                    <i class="la la-plug" aria-hidden="true"></i> {{ _('Integrations') }}
                                 </a>
                             </li>
                             <li role="presentation">
@@ -156,13 +156,6 @@
                                 </a>
                             </li>
                             <li class="divider" role="presentation"></li>
-                            {% endif %}
-                            {% if show_webathena %}
-                            <li title="{% trans %}Grant Zulip the Kerberos tickets needed to run your Zephyr mirror via Webathena{% endtrans %}" id="webathena_login_menu" role="presentation">
-                                <a href="#webathena" class="webathena_login" role="menuitem">
-                                    <i class="fa fa-bolt" aria-hidden="true"></i>{{ _('Link with Webathena') }}
-                                </a>
-                            </li>
                             {% endif %}
                             <li role="presentation">
                                 <a href="#logout" class="logout_button" role="menuitem">
