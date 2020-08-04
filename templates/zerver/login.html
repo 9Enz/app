@@ -10,7 +10,7 @@ page can be easily identified in it's respective JavaScript file. -->
 <div class="app login-page split-view new-style flex full-page">
     <div class="inline-block">
         <div class="lead">
-            <h1 class="get-started">{{ _("Log in to 925app") }}</h1>
+            <h1 class="get-started">{{ _("Log in to 925") }}</h1>
         </div>
 
         <div class="app-main login-page-container white-box inline-block">
@@ -122,10 +122,10 @@ page can be easily identified in it's respective JavaScript file. -->
 
                     <div class="actions">
                         {% if email_auth_enabled %}
-                        <a class="forgot-password" href="/accounts/password/reset/">{{ _('Forgot your password?') }}</a>
+                        <a class="forgot-password" href="/accounts/password/reset/">{{ _('Forgot password?') }}</a>
                         {% endif %}
-                        {% if not register_link_disabled %}
-                        <a class="register-link float-right" href="/register/">{{ _('Sign up') }}</a>
+                        {% if not realm_invite_required %}
+                        <a class="register-link float-right" href="/register/">{{ _('Register') }}</a>
                         {% endif %}
                     </div>
                 {% endif %}
@@ -134,6 +134,7 @@ page can be easily identified in it's respective JavaScript file. -->
 
         {% if realm_invite_required %}
         <div class="contact-admin">
+            <i class="la la-lock"></i>
             <p class="invite-hint">{{ _("Don't have an account yet? You need to be invited to join.") }}</p>
         </div>
         {% endif %}
