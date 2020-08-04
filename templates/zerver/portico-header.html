@@ -2,17 +2,11 @@
     <div class="header-main" id="top_navbar">
         <div class="float-left">
             <div>
-                {% if custom_logo_url %}
-                <a class="brand logo" href="{{ root_domain_uri }}/"><img draggable="false" src="{{ realm_icon }}" class="portico-logo" alt="{{ _('925app') }}" content="925app" /></a>
-                {% else %}
-                <a class="brand logo" href="{{ root_domain_uri }}{% if page_is_help_center %}/help/{% endif %}">
-                    <svg class="brand-logo" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 40 40" version="1.1">
-                        <g transform="translate(-297.14285,-466.64792)">
-                            <circle cx="317.14285" cy="486.64792" r="19.030317" style="fill:#fff;stroke-width:1.93936479;stroke:transparent"></circle>
-                            <path d="m309.24286 477.14791 14.2 0 1.6 3.9-11.2 11.9 9.6 0 1.6 3.2-14.2 0-1.6-3.9 11.2-11.9-9.6 0z" style="fill:#52c2af;stroke:#52c2af"></path>
-                        </g>
-                    </svg>
-                    <span>925app Chat</span>
+                <a class="brand logo" href="{{ realm_uri }}{% if page_is_help_center %}/help/{% endif %}">
+                    <span class="applogo">
+                        <i class="la la-sms"></i>
+                    </span>
+                    <span>925 CHAT</span>
                     {% if page_is_help_center %}
                     <div class="light"> | User Documentation</div>
                     {% endif %}
@@ -20,7 +14,6 @@
                     <div class="light"> | API Documentation</div>
                     {% endif %}
                 </a>
-                {% endif %}
             </div>
         </div>
 
@@ -40,7 +33,7 @@
             {% else %}
                 {% if user_is_authenticated %}
                 {% else %}
-                <a href="{{ url('register') }}">{{ _('Sign up') }}</a>
+                <a href="{{ url('register') }}">{{ _('Register') }}</a>
                 {% endif %}
             {% endif %}
         </div>
