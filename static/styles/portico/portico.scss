@@ -569,7 +569,12 @@ input.text-error {
             color: hsl(0, 0%, 20%);
             opacity: 0.5;
         }
-
+        
+        .applogo {
+            font-size: 32px;
+            color: #1185DD;
+            margin: 0 0 0 4px;
+        
         .brand-logo {
             width: 25px;
             margin-top: 3px;
@@ -583,8 +588,8 @@ input.text-error {
             color: hsl(0, 0%, 100%);
             font-size: 1.2rem;
             font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
+//            letter-spacing: 0.1em;
+//            text-transform: uppercase;
         }
     }
 
