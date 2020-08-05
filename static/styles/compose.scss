@@ -65,6 +65,14 @@ $hover:     #E6E6E6;
         }
 }
 
+#compose_buttons .new_message_button .alert-draft {
+    font-size: 14px;
+    color: #51c2af;
+    padding: 3px 12px;
+    font-weight: 400;
+    display: none;
+}
+
 .compose-content {
 //    border-top: 1px solid hsla(0, 0%, 0%, 0.07);
     transition: background-color 200ms linear;
