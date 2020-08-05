@@ -44,14 +44,6 @@ $hover:     #E6E6E6;
             }
         }
 
-        .alert-draft {
-            font-size: 14px;
-            color: hsl(170, 48%, 54%);
-            padding: 3px 12px;
-            font-weight: 400;
-            display: none;
-        }
-
         @media (max-width: 550px) {
             .compose_stream_button,
             .compose_private_button {
@@ -59,18 +51,19 @@ $hover:     #E6E6E6;
             }
         }
     }
+
+    .alert-draft {
+        font-size: 14px;
+        color: hsl(170, 48%, 54%);
+        padding: 3px 12px;
+        font-weight: 400;
+        display: none;
+    }
+
     
     .new_message_button:hover {
-            opacity: 0.7;
-        }
-}
-
-#compose_buttons .new_message_button .alert-draft {
-    font-size: 14px;
-    color: #51c2af;
-    padding: 3px 12px;
-    font-weight: 400;
-    display: none;
+         opacity: 0.7;
+    }
 }
 
 .compose-content {
