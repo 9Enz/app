@@ -279,6 +279,33 @@ div.message_table {
     right: calc(100vw - $twocolumns);
 }
 
+.messagebox {
+    position: relative;
+    word-wrap: break-word;
+    cursor: pointer;
+    vertical-align: top;
+    border: none;
+}
+
+.message_content {
+    line-height: 1.214;
+    min-height: 17px;
+    font-size: 14px;
+    margin-left: 46px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.message_length_controller {
+    display: none;
+    text-align: center;
+    color: #0087cc;
+    margin-left: 5px;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+
 // Right column
 
 .nav {
