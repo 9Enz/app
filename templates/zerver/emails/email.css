@@ -11,7 +11,7 @@ img {
 }
 
 body {
-    background-color: #f5f9f8;
+    background-color: #fafafa;
     font-family: sans-serif;
     font-size: 14px;
     line-height: 1.4;
@@ -35,7 +35,7 @@ table td {
 }
 
 .body {
-    background-color: #f5f9f8;
+    background-color: #fafafa;
     width: 100%;
 }
 
@@ -122,7 +122,7 @@ ol li {
 }
 
 a {
-    color: #46aa8f;
+    color: #1185DD;
     text-decoration: underline;
 }
 
@@ -139,8 +139,8 @@ a:hover {
     padding: 10px 0px;
     margin: 20px auto;
     width: 200px;
-    border: 1px solid #80d1ba;
-    background-color: #80d1ba;
+    border: 1px solid #1185DD;
+    background-color: #1185DD;
     border-radius: 4px;
     font-size: 16px;
     outline: none;
@@ -152,7 +152,8 @@ a:hover {
 }
 
 a.button:hover {
-    color: #caf7ea;
+    color: #ffffff;
+    font-weight: bold;
     text-decoration: none;
 }
 
