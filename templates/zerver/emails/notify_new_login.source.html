@@ -5,11 +5,11 @@
 {% endblock %}
 
 {% block illustration %}
-<img src="{{ email_images_base_uri }}/email_logo.png" alt=""/>
+<img src="{{ email_images_base_uri }}/email_security.png" alt=""/>
 {% endblock %}
 
 {% block content %}
-<p>{{ _("We noticed a recent login for the following Zulip account.") }}</p>
+<p>{{ _("We want to inform you of a recent login for the following account:") }}</p>
 <p>
     <ul>
         <li>
@@ -38,7 +38,7 @@
 
 <p>
     {{ _("Thanks,") }}<br>
-    {{ _("Zulip Security") }}
+    {{ _("Your 925 Security Team") }}
 </p>
 {% endblock %}
 
