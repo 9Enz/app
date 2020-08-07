@@ -309,7 +309,7 @@ INVITES_NEW_REALM_DAYS = 7
 # Controls for which links are published in portico footers/headers/etc.
 REGISTER_LINK_DISABLED: Optional[bool] = None
 LOGIN_LINK_DISABLED = False
-FIND_TEAM_LINK_DISABLED = True
+FIND_TEAM_LINK_DISABLED = False
 
 # Controls if the server should run certain jobs like deliver_email or
 # deliver_scheduled_messages. This setting in long term is meant for
