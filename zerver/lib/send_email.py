@@ -51,7 +51,7 @@ class FromAddress:
             language = user_profile.default_language
 
         with override_language(language):
-            return _("Zulip Account Security")
+            return _("925 Account Security")
 
 def build_email(template_prefix: str, to_user_ids: Optional[List[int]]=None,
                 to_emails: Optional[List[str]]=None, from_name: Optional[str]=None,
@@ -109,7 +109,7 @@ def build_email(template_prefix: str, to_user_ids: Optional[List[int]]=None,
         logger.warning("Missing language for email template '%s'", template_prefix)
 
     if from_name is None:
-        from_name = "Zulip"
+        from_name = "925 App"
     if from_address is None:
         from_address = FromAddress.NOREPLY
     if from_address == FromAddress.tokenized_no_reply_placeholder:
@@ -124,7 +124,7 @@ def build_email(template_prefix: str, to_user_ids: Optional[List[int]]=None,
     if reply_to_email is not None:
         reply_to = [reply_to_email]
     # Remove the from_name in the reply-to for noreply emails, so that users
-    # see "noreply@..." rather than "Zulip" or whatever the from_name is
+    # see "noreply@..." rather than "925" or whatever the from_name is
     # when they reply in their email client.
     elif from_address == FromAddress.NOREPLY:
         reply_to = [FromAddress.NOREPLY]
