@@ -1,4 +1,4 @@
-{{ _('Welcome to Zulip!') }}
+{{ _('Welcome to 925!') }}
 
 {% if realm_creation %}
 {% trans %}You've created the new 925 organization {{ realm_name }}.{% endtrans %}
