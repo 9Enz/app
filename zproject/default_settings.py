@@ -357,7 +357,7 @@ JWT_AUTH_KEYS: Dict[str, "JwtAuthKey"] = {}
 # Django setting for what from address to use in error emails.
 SERVER_EMAIL = ZULIP_ADMINISTRATOR
 # Django setting for who receives error emails.
-ADMINS = (("Zulip Administrator", ZULIP_ADMINISTRATOR),)
+ADMINS = (("925 Administrator", ZULIP_ADMINISTRATOR),)
 
 # From address for welcome emails.
 WELCOME_EMAIL_SENDER: Optional[Dict[str, str]] = None
