@@ -348,7 +348,7 @@ def do_send_missedmessage_events_reply_in_zulip(user_profile: UserProfile,
     if reply_to_address == FromAddress.NOREPLY:
         reply_to_name = ""
     else:
-        reply_to_name = "Zulip"
+        reply_to_name = "925"
 
     narrow_url = get_narrow_url(user_profile, missed_messages[0]['message'])
     context.update({
@@ -412,7 +412,7 @@ def do_send_missedmessage_events_reply_in_zulip(user_profile: UserProfile,
         })
 
     with override_language(user_profile.default_language):
-        from_name: str = _("Zulip missed messages")
+        from_name: str = _("925 Missed Messages")
     from_address = FromAddress.NOREPLY
     if len(senders) == 1 and settings.SEND_MISSED_MESSAGE_EMAILS_AS_USER:
         # If this setting is enabled, you can reply to the Zulip
