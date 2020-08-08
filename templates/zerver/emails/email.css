@@ -127,7 +127,7 @@ a {
 }
 
 a:hover {
-    color: #52c7a8;
+    text-decoration: none;
 }
 
 .important {
