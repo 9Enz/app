@@ -339,7 +339,7 @@ html {
         box-sizing: border-box;
         outline: none;
         color: hsl(0, 0%, 100%);
-        background-color: hsl(213, 23%, 25%);
+        background-color: #1185DD;
 
         margin: 25px 0 5px;
         height: 50px;
@@ -350,11 +350,11 @@ html {
         transition: all 0.3s ease;
 
         &:hover {
-            background-color: hsl(213, 33%, 31%);
+            background-color: #0673C7;
         }
 
         &:active {
-            background-color: hsl(214, 28%, 16%);
+            background-color: #0673C7;
         }
 
         &:focus {
