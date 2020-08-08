@@ -157,7 +157,7 @@ INLINE_IMAGE_PREVIEW = True
 INLINE_URL_EMBED_PREVIEW = True
 NAME_CHANGES_DISABLED = False
 AVATAR_CHANGES_DISABLED = False
-PASSWORD_MIN_LENGTH = 6
+PASSWORD_MIN_LENGTH = 8
 PASSWORD_MIN_GUESSES = 10000
 PUSH_NOTIFICATION_BOUNCER_URL: Optional[str] = None
 PUSH_NOTIFICATION_REDACT_CONTENT = False
@@ -399,7 +399,7 @@ ARCHIVED_DATA_VACUUMING_DELAY_DAYS = 7
 
 # Enables billing pages and plan-based feature gates. If False, all features
 # are available to all realms.
-BILLING_ENABLED = False
+BILLING_ENABLED = True
 
 FREE_TRIAL_DAYS = get_secret('free_trial_days', None)
 
