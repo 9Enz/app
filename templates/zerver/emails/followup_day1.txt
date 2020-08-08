@@ -1,9 +1,9 @@
 {{ _('Welcome to Zulip!') }}
 
 {% if realm_creation %}
-{% trans %}You've created the new Zulip organization {{ realm_name }}.{% endtrans %}
+{% trans %}You've created the new 925 organization {{ realm_name }}.{% endtrans %}
 {% else %}
-{% trans %}You've joined the Zulip organization {{ realm_name }}.{% endtrans %}
+{% trans %}You've joined the 925 organization {{ realm_name }}.{% endtrans %}
 {% endif %}
 
 
@@ -18,7 +18,7 @@
 {% else %}
 * {{ _('Email:') }} {{ email }}
 {% endif %}
-{% trans apps_page_link="https://zulip.com/apps" %}(you'll need these to sign in to the mobile and desktop apps ({{ apps_page_link }})){% endtrans %}
+{% trans apps_page_link="https://925id.org/apps" %}(you'll need these to sign in to the mobile and desktop apps ({{ apps_page_link }})){% endtrans %}
 
 
 {% if is_realm_admin %}
@@ -29,6 +29,5 @@
 
 
 {{ _("Cheers,") }}
-{{ _("Team Zulip") }}
+{{ _("Your 925 Team") }}
 
-{% trans %}PS: Check us out on Twitter (@zulip), star us on GitHub (https://github.com/zulip/zulip), or chat with us live on the Zulip community server (https://chat.zulip.org)!{% endtrans %}
