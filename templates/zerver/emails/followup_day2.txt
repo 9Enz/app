@@ -14,7 +14,7 @@
 {{ realm_uri }}
 
 {{ _("Thanks,") }}
-{{ _("925 Team") }}
+{{ _("Your 925 Team") }}
 ----
 {{ _("Manage email preferences:") }}
 {{ realm_uri }}/#settings/notifications
