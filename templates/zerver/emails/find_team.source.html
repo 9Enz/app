@@ -1,7 +1,7 @@
 {% extends "zerver/emails/compiled/email_base_default.html" %}
 
 {% block illustration %}
-<img src="{{ email_images_base_uri }}/email_logo.png" alt=""/>
+<img src="{{ email_images_base_uri }}/email_account.png" alt=""/>
 {% endblock %}
 
 {% block content %}
@@ -19,7 +19,7 @@
 
 <p>{% trans %}The email address associated with your account is {{ email }}.{% endtrans %}</p>
 
-<p>{% trans %}If you have trouble logging in, please contact Zulip support by replying to this email.{% endtrans %}</p>
+<p>{% trans %}If you have trouble logging in, please contact 925 Support by replying to this email.{% endtrans %}</p>
 
 <p>{{ _("Thanks for using 925!") }}</p>
 {% endblock %}
