@@ -51,9 +51,6 @@ input {
 
 #navbar-buttons {
     white-space: nowrap;
-    margin-left: 15px;
-    margin-top: 7px;
-    display: inline-block;
     float: right;
 
     ul.nav {
@@ -73,7 +70,9 @@ input {
             right: 6px;
             top: -3px;
         }
-
+        
+        .dropdown { position: unset; }
+        
         .dropdown-toggle,
         li.active .dropdown-toggle:hover {
             opacity: 1;
