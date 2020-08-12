@@ -116,7 +116,7 @@ class Integration:
 class BotIntegration(Integration):
     DEFAULT_LOGO_STATIC_PATH_PNG = 'generated/bots/{name}/logo.png'
     DEFAULT_LOGO_STATIC_PATH_SVG = 'generated/bots/{name}/logo.svg'
-    ZULIP_LOGO_STATIC_PATH_PNG = 'images/logo/zulip-icon-128x128.png'
+    ZULIP_LOGO_STATIC_PATH_PNG = 'images/logo/925-128x128.png'
     DEFAULT_DOC_PATH = '{name}/doc.md'
 
     def __init__(self, name: str, categories: List[str], logo: Optional[str]=None,
