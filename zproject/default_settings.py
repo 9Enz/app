@@ -399,7 +399,7 @@ ARCHIVED_DATA_VACUUMING_DELAY_DAYS = 7
 
 # Enables billing pages and plan-based feature gates. If False, all features
 # are available to all realms.
-BILLING_ENABLED = True
+BILLING_ENABLED = False
 
 FREE_TRIAL_DAYS = get_secret('free_trial_days', None)
 
