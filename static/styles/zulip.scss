@@ -93,19 +93,12 @@ input {
 }
 
 .actual-dropdown-menu {
-    position: unset;
-    float: right;
-    width: 220px;
-    border-radius: 0;
+    color: $ink;
     
     li>a:hover {
         background: unset;
         background-color: $hover;
         color: $ink;
-        
-        .fa {
-            font-size: 21px;
-        }
     }
 }
 
