@@ -262,8 +262,8 @@ div.message_table {
     }
 }
 
-.message-header-contents {
-    position: fixed;
+.message_header {
+    position: sticky;
     $top: $headerheight;
     left: $twocolumns;
     width: calc(100% - $twocolumns);
