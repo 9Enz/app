@@ -239,6 +239,9 @@ input {
 }
 
 // Middle colmun
+.column-middle {
+    height: 0;
+}
 
 div.message_table {
     border-collapse: separate;
@@ -309,6 +312,10 @@ div.message_table {
 
 // Right column
 
+.column-right {
+    float: right;
+}
+
 .nav {
 
     .dropdown-toggle {
@@ -329,10 +336,6 @@ div.message_table {
         border-radius: 0px;
         box-shadow: 0 0 10px rgba(0,0,0,.2);
     }
-}
-
-.column-right {
-    float: right;
 }
 
 // Temporary stuff
