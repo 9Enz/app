@@ -48,14 +48,6 @@
                 <div style="background-image: url('{{small_avatar_url}}');">
                 </div>
             </div>
-            <div class="new_message_button">
-                <a href="#" id="userlist-toggle-button" role="button" title="{{ _('User list') }} (w)">
-                    <span class="button-icon">
-                        <i class="la la-user-circle"></i>
-                    </span>
-                    <span id="userlist-toggle-unreadcount">0</span>
-                </a>
-            </div>
             <div id="navbar-buttons" {%if embedded %} style="visibility: hidden"{% endif %}>
                 <ul class="nav" role="navigation">
                     <li class="dropdown actual-dropdown-menu new_message_button" id="gear-menu">
@@ -168,6 +160,14 @@
                         </ul>
                     </li>
                 </ul>
+            </div>
+            <div class="new_message_button">
+                <a href="#" id="userlist-toggle-button" role="button" title="{{ _('User list') }} (w)">
+                    <span class="button-icon">
+                        <i class="la la-user-circle"></i>
+                    </span>
+                    <span id="userlist-toggle-unreadcount">0</span>
+                </a>
             </div>
         </div>
     </nav>
