@@ -50,8 +50,7 @@ input {
 }
 
 #navbar-buttons {
-    white-space: nowrap;
-    float: right;
+    display: inline-block;
 
     ul.nav {
         margin: 0px;
