@@ -13,9 +13,6 @@ $red:       #B8007A;
 $border:    1px solid #E6E6E6;
 $hover:     #E6E6E6;
 
-
-#compose_buttons {
-
     .new_message_button {
         display: inline-block;
 
@@ -60,10 +57,8 @@ $hover:     #E6E6E6;
         display: none;
     }
 
-    
     .new_message_button:hover {
-         opacity: 0.7;
-    }
+    opacity: 0.7;
 }
 
 .compose-content {
