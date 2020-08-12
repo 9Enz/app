@@ -13,51 +13,66 @@ $red:       #B8007A;
 $border:    1px solid #E6E6E6;
 $hover:     #E6E6E6;
 
-    .new_message_button {
+.new_message_button {
+    display: inline-block;
+    
+    a {
+        padding: 8px;
         display: inline-block;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+    }
 
-        a {
-            padding: 8px;
-            display: inline-block;
-            width: 32px;
-            height: 32px;
-            cursor: pointer;
+    .button.small {
+        font-size: 1em;
+        padding: 3px 10px;
+    }
+
+    .compose_mobile_button {
+        span {
+            font-size: 1.2em !important;
+            font-weight: 400;
+            line-height: 1em;
         }
 
-        .button.small {
-            font-size: 1em;
-            padding: 3px 10px;
-        }
-
-        .compose_mobile_button {
-            span {
-                font-size: 1.2em !important;
-                font-weight: 400;
-                line-height: 1em;
-            }
-
-            @media (min-width: 551px) {
-                display: none;
-            }
-        }
-
-        @media (max-width: 550px) {
-            .compose_stream_button,
-            .compose_private_button {
-                display: none;
-            }
+        @media (min-width: 551px) {
+            display: none;
         }
     }
 
-    .alert-draft {
-        font-size: 14px;
-        color: hsl(170, 48%, 54%);
-        padding: 3px 12px;
-        font-weight: 400;
-        display: none;
+    @media (max-width: 550px) {
+        .compose_stream_button,
+        .compose_private_button {
+            display: none;
+        }
+    }
+    
+    .button-icon, .nav .dropdown-toggle {
+        font-size: 25px;
+        color: white;
     }
 
-    .new_message_button:hover {
+    .la-sub i {
+        font-size: 16px;
+        color: white;
+        position: relative;
+        left: 14px;
+        top: -15px;
+        border-radius: 50%;
+        background-color: $blue;
+    }
+}
+
+.alert-draft {
+    font-size: 14px;
+    color: hsl(170, 48%, 54%);
+    padding: 3px 12px;
+    font-weight: 400;
+    display: none;
+}
+
+.new_message_button:hover {
     opacity: 0.7;
 }
 
@@ -556,20 +571,4 @@ a#undo_markdown_preview {
         margin-right: 5px;
         margin-left: 5px;
     }
-}
-
-#compose .button-icon,
-.nav .dropdown-toggle {
-    font-size: 25px;
-    color: white;
-}
-
-#compose .la-sub i {
-    font-size: 16px;
-    color: white;
-    position: relative;
-    left: 14px;
-    top: -15px;
-    border-radius: 50%;
-    background-color: $blue;
 }
